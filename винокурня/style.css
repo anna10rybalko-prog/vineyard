@@ -1,0 +1,206 @@
+body{
+    background-color: rgb(35, 71, 18);
+    color: white;
+    scroll-behavior: smooth;
+}
+
+.mainb {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: 0; 
+    background-image: url('./виноградник.jpg'); 
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 900px;
+    background-size: cover;
+}
+.hd{
+    position: fixed;
+    width: 900px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 0%;
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(10px);
+    margin-left: 300px;
+    margin-top: 20px;
+}
+.t{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+}
+a{
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    letter-spacing: 0.25em;
+    padding: 40px;
+    padding-left: 100px;
+    color: white;
+}
+h1{
+    font-family: Garamond;
+    font-size: 67px;
+    color: white;
+    margin-top: 50px;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+}
+h2{
+    font-family:Garamond, serif;
+    size: 100px;
+    /* color: white; */
+
+    font-weight: 100;
+}
+.b2{
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: flex;
+    justify-content: center;         
+    margin-top: 50px;
+    flex-wrap: wrap;       
+}
+.c1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+}
+.c1c{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url('./тунец.jpg'); 
+    background-size: cover;
+}
+.c2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+}
+.c2c{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url('./пьед.jpg'); 
+    background-size: cover;
+}
+.c3{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+}
+.c3c{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url('./венеция.jpg'); 
+    background-size: cover;
+}
+.c4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+}
+.c4c{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url('./сицилия.jpg'); 
+    background-size: cover;
+}
+.c5{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 40px;
+}
+.c5c{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url('./пуглиа.jpg'); 
+    background-size: cover;
+}
+.grape{
+    background-image: url('./виноград3.jpg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+.green {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 500px;
+    background-color: rgb(97, 117, 64);
+    color: white;
+}
+.wine{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 50px;
+    margin-right: 200px;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    border-color: white;
+    border-radius: 20px;
+    background-color:transparent;
+    align-content: right;
+    width: 200px;
+    height: 40px;
+    color: white;
+    padding: 10px;
+    margin-top: 50px;
+}
+p{
+    display: flex;
+    flex-direction:column ;
+}
+.b3{
+    display: flex;
+    flex-direction: row;
+}
+.text2{
+    display: flex;
+    flex-direction: column;
+    margin: 200px;
+}
+.cont{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 275px;
+    /* background-color: rgb(69, 11, 17); */
+    background-color: rgb(236, 226, 216);
+}
+.text3{
+    align-content: center;
+    margin-left: 100px;
+    color:rgb(69, 11, 17); 
+}
